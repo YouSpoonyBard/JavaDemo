@@ -5,13 +5,22 @@ import sf.codingcomp.exception.TooManyHoursException;
 public class Calculations {
 
     private static final double MAX_SKILL = 4d;
+    private static final double HOUR_RATE = 80;
+    private double rate;
+    private String sLevel;
+    private int level;
+    private char convert;
 
     public static double avgSkill( String levels ) {
-        return 0;
+    	sLevel = levels;
+    	convert = sLevel.charAt(1);
+    	level = Integer.parseInt(convert);
+        return level;
     }
 
     public static double rate( double avgSkill ) {
-        return 0;
+    	rate = HOUR_RATE * (avgSkill / 4)
+        return rate;
     }
 
     public static double productivity( int skillLevel ) {

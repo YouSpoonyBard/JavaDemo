@@ -1,0 +1,12 @@
+sf\codingcomp\calc\Calculations.class
+sf\codingcomp\model\Resource.class
+sf\codingcomp\reader\Reader$1.class
+sf\codingcomp\model\Employee.class
+sf\codingcomp\ProjectManagementSimulationImplementation.class
+sf\codingcomp\exception\TooManyEmployeesException.class
+sf\codingcomp\model\Schedule.class
+sf\codingcomp\reader\Reader.class
+sf\codingcomp\model\Week.class
+sf\codingcomp\exception\TooManyHoursException.class
+sf\codingcomp\ProjectManagementSimulation.class
+sf\codingcomp\reader\Reader$2.class
