@@ -46,12 +46,12 @@ public class FileDemo2 {
             if (ans == 'n') {
                 System.out.println("Bye");
                 System.exit(0);
-            }else{
-                ans = "yes".charAt(0);
-            }
+            }//else{
+            //    ans = "yes".charAt(0);
+            //}
 
         } while (ans != 'y') ;
-            File file = new File("./FileDemo2.txt");
+/**            File file = new File("./FileDemo2.txt");
             Scanner inputIntoFile = new Scanner(file);
 
             while (inputIntoFile.hasNext()) {
@@ -65,7 +65,7 @@ public class FileDemo2 {
 
 
         }
-
+**/
 
     public static double FindArea (String nameFull, int wside, int  lside) throws IOException{
         double areaShape;
